@@ -18,3 +18,7 @@ sudo apt-get update
 ```
 sudo apt-get install -y mongodb-org
 ```
+## 5. Enable Service to run database on startup
+```
+sudo systemctl enable mongod.service
+```
