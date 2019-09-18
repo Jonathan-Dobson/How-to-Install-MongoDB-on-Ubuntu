@@ -1,5 +1,12 @@
 # How to Install MongoDB on Ubuntu
-A simplified guide on how to Install MongoDB on Ubuntu 16 and 18
+This is a simplified guide on how to Install MongoDB on Ubuntu 16 and 18
+
+#### You can also skip this guide; For an easy install, try this ready-made script:
+```
+wget https://raw.githubusercontent.com/fromjdobson/How-to-Install-MongoDB-on-Ubuntu/master/install-mongodb.sh && chmod +x install-mongodb.sh && ./install-mongodb.sh
+```
+This will download the ready-made shell script that will run all the commands needed to install mongodb on Ubuntu.
+
 
 ## 1. Import the `public key` used by the package management system from [GPG Key Server](https://www.mongodb.org/static/pgp/server-4.2.asc)
 ```
